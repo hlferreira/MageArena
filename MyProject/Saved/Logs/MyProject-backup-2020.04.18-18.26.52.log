@@ -1,0 +1,953 @@
+﻿Log file open, 04/18/20 18:07:51
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.064665
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 1080 Ti
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line:  -EpicPortal -epicusername=Allerith -epicuserid=5681d6dbec3744f59c123bd807cf616f -epiclocale=en
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.18-17.07.51:258][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.18-17.07.51:258][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.18-17.07.51:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.07.51:259][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.18-17.07.51:259][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.07.51:259][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.07.51:261][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.18-17.07.51:261][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.18-17.07.51:262][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.18-17.07.51:262][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.18-17.07.51:262][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.18-17.07.51:264][  0]LogHAL: Display: Platform has ~ 16 GB [17122836480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.18-17.07.51:264][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.18-17.07.51:264][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.18-17.07.51:264][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.18-17.07.51:265][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.04.18-17.07.51:265][  0]LogInit: Computer: DESKTOP-B77ULTB
+[2020.04.18-17.07.51:265][  0]LogInit: User: Henrique
+[2020.04.18-17.07.51:265][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.04.18-17.07.51:265][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.18-17.07.51:266][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.18-17.07.51:266][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.18-17.07.51:266][  0]LogMemory: Process Physical Memory: 106.22 MB used, 106.22 MB peak
+[2020.04.18-17.07.51:266][  0]LogMemory: Process Virtual Memory: 101.64 MB used, 101.64 MB peak
+[2020.04.18-17.07.51:266][  0]LogMemory: Physical Memory: 6786.89 MB used,  9542.72 MB free, 16329.61 MB total
+[2020.04.18-17.07.51:266][  0]LogMemory: Virtual Memory: 5159.30 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.04.18-17.07.51:268][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.18-17.07.51:281][  0]LogInit: Using OS detected language (pt-PT).
+[2020.04.18-17.07.51:281][  0]LogInit: Using OS detected locale (pt-PT).
+[2020.04.18-17.07.51:282][  0]LogTextLocalizationManager: No localization for 'pt-PT' exists, so 'en' will be used for the language.
+[2020.04.18-17.07.51:418][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.18-17.07.51:440][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.18-17.07.51:440][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.18-17.07.51:547][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.18-17.07.51:547][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.18-17.07.51:547][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.18-17.07.51:547][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.18-17.07.51:617][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2020.04.18-17.07.51:617][  0]LogD3D11RHI:       11127/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.18-17.07.51:619][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.18-17.07.51:619][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.18-17.07.51:619][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.18-17.07.51:628][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.18-17.07.51:628][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.18-17.07.51:628][  0]LogWindows: EnumDisplayDevices:
+[2020.04.18-17.07.51:628][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2020.04.18-17.07.51:628][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2020.04.18-17.07.51:629][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2020.04.18-17.07.51:629][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2020.04.18-17.07.51:629][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.04.18-17.07.51:629][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2020.04.18-17.07.51:629][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.04.18-17.07.51:629][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.04.18-17.07.51:629][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2020.04.18-17.07.51:665][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.18-17.07.51:665][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.18-17.07.51:681][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.18-17.07.51:898][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.18-17.07.51:922][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.18-17.07.51:922][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.18-17.07.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.18-17.07.51:937][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.18-17.07.51:937][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.18-17.07.51:943][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.18-17.07.51:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.18-17.07.51:955][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.18-17.07.51:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.18-17.07.51:966][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.18-17.07.51:971][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.18-17.07.51:990][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.18-17.07.51:990][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.18-17.07.52:001][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.18-17.07.52:001][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.18-17.07.52:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.18-17.07.52:012][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.18-17.07.52:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.18-17.07.52:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.18-17.07.52:024][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.18-17.07.52:026][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.18-17.07.52:044][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Intermediate/Shaders/WorkingDirectory/11612/).
+[2020.04.18-17.07.52:044][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Henrique/AppData/Local/Temp/UnrealShaderWorkingDir/288D0258479AF12F7F5499A2410910C3/'.
+[2020.04.18-17.07.52:044][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.18-17.07.52:044][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.18-17.07.52:044][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.18-17.07.52:600][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.18-17.07.52:651][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/Henrique/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.18-17.07.52:651][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Henrique/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.18-17.07.52:651][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.18-17.07.52:651][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.18-17.07.52:651][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.18-17.07.52:651][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.18-17.07.52:660][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.18-17.07.52:660][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.18-17.07.52:660][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.18-17.07.52:661][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Henrique/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.18-17.07.52:661][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.18-17.07.52:661][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.18-17.07.52:682][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.18-17.07.52:684][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.18-17.07.52:685][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.18-17.07.52:726][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2020.04.18-17.07.52:992][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.18-17.07.53:118][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.18-17.07.53:118][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.18-17.07.53:118][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.18-17.07.53:118][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.18-17.07.53:118][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.18-17.07.53:127][  0]LogNetVersion: MyProject 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2318771507)
+[2020.04.18-17.07.53:955][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.042065 seconds
+[2020.04.18-17.07.53:961][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.18-17.07.53:962][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.18-17.07.53:962][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.18-17.07.54:274][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.18-17.07.54:276][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.18-17.07.54:313][  0]SourceControl: Source control is disabled
+[2020.04.18-17.07.54:313][  0]SourceControl: Source control is disabled
+[2020.04.18-17.07.54:314][  0]SourceControl: Source control is disabled
+[2020.04.18-17.07.54:314][  0]SourceControl: Source control is disabled
+[2020.04.18-17.07.54:315][  0]SourceControl: Source control is disabled
+[2020.04.18-17.07.54:378][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.18-17.07.54:385][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.18-17.07.54:385][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.18-17.07.54:451][  0]LogOcInput: OculusInput pre-init called
+[2020.04.18-17.07.54:457][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.18-17.07.54:457][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.18-17.07.54:511][  0]LogEngine: Initializing Engine...
+[2020.04.18-17.07.54:511][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.18-17.07.54:512][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.18-17.07.54:774][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.18-17.07.54:779][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.18-17.07.54:796][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.18-17.07.54:796][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.18-17.07.54:796][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.18-17.07.54:796][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.18-17.07.54:796][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.18-17.07.54:796][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.18-17.07.54:796][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.18-17.07.54:796][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.18-17.07.54:796][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.18-17.07.54:796][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.18-17.07.54:809][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.18-17.07.54:809][  0]LogAudioMixer: Display: Name: Auscultadores (High Definition Audio Device)
+[2020.04.18-17.07.54:809][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.18-17.07.54:809][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.18-17.07.54:809][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.18-17.07.54:809][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.18-17.07.54:809][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.18-17.07.54:809][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.18-17.07.54:809][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.18-17.07.54:831][  0]LogAudioMixer: Display: Using Audio Device Auscultadores (High Definition Audio Device)
+[2020.04.18-17.07.54:835][  0]LogInit: FAudioDevice initialized.
+[2020.04.18-17.07.54:836][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.18-17.07.54:977][  0]LogDerivedDataCache: Saved boot cache 0.14s 78MB C:/Users/Henrique/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.18-17.07.54:982][  0]LogInit: Texture streaming: Enabled
+[2020.04.18-17.07.54:990][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.18-17.07.54:990][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.18-17.07.54:991][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.18-17.07.55:036][  0]LogInit: Transaction tracking system initialized
+[2020.04.18-17.07.55:043][  0]BlueprintLog: New page: Editor Load
+[2020.04.18-17.07.55:066][  0]LocalizationService: Localization service is disabled
+[2020.04.18-17.07.55:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/' took 0.00s
+[2020.04.18-17.07.55:284][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.18-17.07.55:284][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.18-17.07.55:779][  0]SourceControl: Source control is disabled
+[2020.04.18-17.07.55:885][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.18-17.10.10:215][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2020.04.18-17.10.10:215][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.18-17.10.10:225][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.18-17.10.10:226][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.18-17.10.10:226][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2020.04.18-17.10.10:226][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.18-17.10.10:226][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,187ms to complete.
+[2020.04.18-17.10.10:226][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.001
+[2020.04.18-17.10.10:281][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.18-17.10.10:286][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.18-17.10.10:291][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.18-17.10.10:295][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.18-17.10.10:299][  0]LogCollectionManager: Loaded 0 collections in 0.001473 seconds
+[2020.04.18-17.10.10:309][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Collections/' took 0.00s
+[2020.04.18-17.10.10:309][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Developers/Henrique/Collections/' took 0.00s
+[2020.04.18-17.10.10:309][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Collections/' took 0.00s
+[2020.04.18-17.10.10:309][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 3015 classes and 717 folders.
+[2020.04.18-17.10.10:310][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.18-17.10.10:354][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.18-17.10.10:357][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2020.04.18-17.10.10:379][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.18-17.10.10:382][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.18-17.10.10:413][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.04.18-17.10.10:488][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.18-17.10.10:488][  0]LogLoad: (Engine Initialization) Total time: 140.18 seconds
+[2020.04.18-17.10.10:488][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.18-17.10.10:528][  0]LogAssetRegistry: Asset discovery search completed in 137.8040 seconds
+[2020.04.18-17.10.10:531][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2020.04.18-17.10.10:532][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.18-17.10.10:545][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.18-17.10.11:518][113]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.18-17.10.15:399][491]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/SkillTreeHUD.SkillTreeHUD
+[2020.04.18-17.10.15:508][491]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2020.04.18-17.10.16:128][491]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Skills/FireBall.FireBall
+[2020.04.18-17.10.16:393][491]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FireballCharacter/BP_FireballChar.BP_FireballChar
+[2020.04.18-17.10.16:671][491]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.04.18-17.10.16:957][491]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Skills/Master_Skill.Master_Skill
+[2020.04.18-17.10.17:214][491]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/UI_Skill.UI_Skill
+[2020.04.18-17.10.17:714][491]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.18-17.10.17:776][492]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.18-17.10.20:880][850]LogSlate: Window 'BP_FireballChar' being destroyed
+[2020.04.18-17.10.20:883][850]LogSlate: Window 'BP_FireballChar' being destroyed
+[2020.04.18-17.10.20:884][850]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-17.10.20:884][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-17.10.22:358][ 21]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.04.18-17.10.22:358][ 21]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-17.10.22:358][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-17.10.22:756][ 64]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-17.10.22:756][ 64]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-17.10.22:760][ 64]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-17.10.22:760][ 64]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-17.10.23:703][158]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.04.18-17.10.23:703][158]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-17.10.23:703][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-17.10.24:392][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.04.18-17.10.24:392][234]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-17.10.24:392][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-17.10.25:172][322]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-17.10.25:172][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-17.10.25:176][322]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-17.10.25:176][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-17.14.28:248][159]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.04.18-17.19.06:133][311]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Skills/Master_Skill.Master_Skill
+[2020.04.18-17.25.11:453][579]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-17.25.11:453][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-17.25.15:332][ 21]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.04.18-17.25.15:332][ 21]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-17.25.15:332][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-17.25.19:833][546]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Skills/FireBall.FireBall
+[2020.04.18-17.25.22:769][866]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-17.25.22:769][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-17.25.22:816][866]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Skills/FireBall.FireBall
+[2020.04.18-17.26.11:303][145]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.04.18-17.26.50:269][654]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-17.26.50:269][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-17.26.51:466][790]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Skills/Master_Skill.Master_Skill
+[2020.04.18-17.26.59:176][654]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FireballCharacter/BP_FireballChar.BP_FireballChar
+[2020.04.18-17.27.02:298][976]LogSlate: Window 'BP_FireballChar' being destroyed
+[2020.04.18-17.30.35:147][274]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2020.04.18-17.30.35:153][274]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_0' took 0.086
+[2020.04.18-17.30.35:154][274]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Skills/FireBall] ([1] browsable assets)...
+[2020.04.18-17.30.35:154][274]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skills/FireBall]
+[2020.04.18-17.30.35:184][274]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/FireBall_Auto137E6BA544B2DF6CB435EE68199D28DBE.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Autosaves/Game/Skills/FireBall_Auto1.uasset'
+[2020.04.18-17.30.35:185][274]LogFileHelpers: Auto-saving content packages took 0.032
+[2020.04.18-17.35.41:258][882]LogEditorTransaction: Undo Delete current selection
+[2020.04.18-17.36.32:627][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skills/Master_Skill" FILE="../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset" SILENT=true
+[2020.04.18-17.36.32:679][ 40]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Master_Skill3C7F8E70452A70218C2320B2E9F8D886.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset'
+[2020.04.18-17.36.32:696][ 40]AssetCheck: New page: Asset Save: Master_Skill
+[2020.04.18-17.36.32:696][ 40]LogContentValidation: Display: Validating Blueprint /Game/Skills/Master_Skill.Master_Skill
+[2020.04.18-17.36.33:125][ 90]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-17.36.33:372][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.04.18-17.36.33:893][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skills/Master_Skill" FILE="../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset" SILENT=true
+[2020.04.18-17.36.33:938][139]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Master_SkillAE56B827418BE675C235AA8B2A646CA6.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset'
+[2020.04.18-17.36.33:951][139]AssetCheck: New page: Asset Save: Master_Skill
+[2020.04.18-17.36.33:951][139]LogContentValidation: Display: Validating Blueprint /Game/Skills/Master_Skill.Master_Skill
+[2020.04.18-17.42.49:597][298]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-17.42.49:822][298]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.04.18-17.42.50:209][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skills/Master_Skill" FILE="../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset" SILENT=true
+[2020.04.18-17.42.50:265][338]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Master_Skill57E4CA5D4D9184A2A561A0B34775C84B.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset'
+[2020.04.18-17.42.50:277][338]AssetCheck: New page: Asset Save: Master_Skill
+[2020.04.18-17.42.50:277][338]LogContentValidation: Display: Validating Blueprint /Game/Skills/Master_Skill.Master_Skill
+[2020.04.18-17.46.03:772][241]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-17.46.03:792][241]LogBlueprint: Error: [Compiler Master_Skill] This blueprint (self) is not a MovementComponent, therefore ' Target generated from expanding Play Animation ' must have a connection.
+[2020.04.18-17.46.03:792][241]LogBlueprint: Error: [Compiler Master_Skill] This blueprint (self) is not a AnimSequenceBase, therefore ' Target generated from expanding Play Animation ' must have a connection.
+[2020.04.18-17.46.03:794][241]LogBlueprint: Error: [Compiler Master_Skill] Variable node  Get SequenceLength generated from expanding Play Animation  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.04.18-17.46.03:996][241]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.04.18-17.46.04:285][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skills/Master_Skill" FILE="../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset" SILENT=true
+[2020.04.18-17.46.04:336][265]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Master_Skill73E3810A4101B3E7809ED6AF37BCEB69.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset'
+[2020.04.18-17.46.04:348][265]AssetCheck: New page: Asset Save: Master_Skill
+[2020.04.18-17.46.04:348][265]LogContentValidation: Display: Validating Blueprint /Game/Skills/Master_Skill.Master_Skill
+[2020.04.18-17.46.53:602][269]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.04.18-17.46.53:603][269]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_0' took 0.034
+[2020.04.18-17.46.53:603][269]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Skills/FireBall] ([1] browsable assets)...
+[2020.04.18-17.46.53:603][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skills/FireBall]
+[2020.04.18-17.46.53:628][269]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/FireBall_Auto27781E4F041AB03AB23BA9D9FAA956147.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Autosaves/Game/Skills/FireBall_Auto2.uasset'
+[2020.04.18-17.46.53:629][269]LogFileHelpers: Auto-saving content packages took 0.026
+[2020.04.18-17.47.33:880][258]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-17.47.33:901][258]LogBlueprint: Error: [Compiler Master_Skill] This blueprint (self) is not a AnimSequenceBase, therefore ' Target generated from expanding Play Animation ' must have a connection.
+[2020.04.18-17.47.33:902][258]LogBlueprint: Error: [Compiler Master_Skill] Variable node  Get SequenceLength generated from expanding Play Animation  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.04.18-17.47.34:096][258]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.04.18-17.47.45:298][765]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-17.47.45:317][765]LogBlueprint: Error: [Compiler Master_Skill] This blueprint (self) is not a AnimSequenceBase, therefore ' Target generated from expanding Play Animation ' must have a connection.
+[2020.04.18-17.47.45:318][765]LogBlueprint: Error: [Compiler Master_Skill] Variable node  Get SequenceLength generated from expanding Play Animation  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.04.18-17.47.45:510][765]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.04.18-17.49.56:450][981]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-17.49.56:469][981]LogBlueprint: Error: [Compiler Master_Skill] This blueprint (self) is not a AnimSequenceBase, therefore ' Target generated from expanding Play Animation ' must have a connection.
+[2020.04.18-17.49.56:470][981]LogBlueprint: Error: [Compiler Master_Skill] Variable node  Get SequenceLength generated from expanding Play Animation  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.04.18-17.49.56:664][981]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.04.18-17.51.34:204][755]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-17.51.34:224][755]LogBlueprint: Error: [Compiler Master_Skill] This blueprint (self) is not a AnimSequenceBase, therefore ' Target generated from expanding Play Animation ' must have a connection.
+[2020.04.18-17.51.34:224][755]LogBlueprint: Error: [Compiler Master_Skill] Variable node  Get SequenceLength generated from expanding Play Animation  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.04.18-17.51.34:421][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.04.18-17.51.35:515][881]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-17.51.35:533][881]LogBlueprint: Error: [Compiler Master_Skill] This blueprint (self) is not a AnimSequenceBase, therefore ' Target generated from expanding Play Animation ' must have a connection.
+[2020.04.18-17.51.35:534][881]LogBlueprint: Error: [Compiler Master_Skill] Variable node  Get SequenceLength generated from expanding Play Animation  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.04.18-17.51.35:729][881]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.04.18-17.51.35:758][881]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-17.51.35:776][881]LogBlueprint: Error: [Compiler Master_Skill] This blueprint (self) is not a AnimSequenceBase, therefore ' Target generated from expanding Play Animation ' must have a connection.
+[2020.04.18-17.51.35:776][881]LogBlueprint: Error: [Compiler Master_Skill] Variable node  Get SequenceLength generated from expanding Play Animation  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.04.18-17.51.35:970][881]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.04.18-17.52.20:835][885]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-17.52.20:854][885]LogBlueprint: Error: [Compiler Master_Skill] This blueprint (self) is not a AnimSequenceBase, therefore ' Target generated from expanding Play Animation ' must have a connection.
+[2020.04.18-17.52.20:855][885]LogBlueprint: Error: [Compiler Master_Skill] Variable node  Get SequenceLength generated from expanding Play Animation  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.04.18-17.52.21:047][885]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.04.18-17.57.00:003][922]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.04.18-17.57.00:004][922]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_0' took 0.037
+[2020.04.18-17.57.00:004][922]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Skills/Master_Skill] ([1] browsable assets)...
+[2020.04.18-17.57.00:004][922]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skills/Master_Skill]
+[2020.04.18-17.57.00:060][922]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Master_Skill_Auto33F928EDD42D3CB8043F2EC81BE187A20.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Autosaves/Game/Skills/Master_Skill_Auto3.uasset'
+[2020.04.18-17.57.00:061][922]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Skills/FireBall] ([1] browsable assets)...
+[2020.04.18-17.57.00:061][922]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skills/FireBall]
+[2020.04.18-17.57.00:087][922]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/FireBall_Auto337C180754E5733F5D082949706E64F63.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Autosaves/Game/Skills/FireBall_Auto3.uasset'
+[2020.04.18-17.57.00:087][922]LogFileHelpers: Auto-saving content packages took 0.083
+[2020.04.18-17.59.51:818][835]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-17.59.52:042][835]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.04.18-18.04.47:675][442]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-18.04.47:901][442]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.04.18-18.09.33:489][806]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-18.09.33:713][806]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.04.18-18.09.34:384][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skills/Master_Skill" FILE="../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset" SILENT=true
+[2020.04.18-18.09.34:438][880]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Master_Skill4AA776A74F33DCD1FD12439106F49B63.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset'
+[2020.04.18-18.09.34:454][880]AssetCheck: New page: Asset Save: Master_Skill
+[2020.04.18-18.09.34:454][880]LogContentValidation: Display: Validating Blueprint /Game/Skills/Master_Skill.Master_Skill
+[2020.04.18-18.09.35:769][ 32]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.09.35:769][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.10.14:808][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.04.18-18.10.14:808][819]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.10.14:808][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.10.17:722][154]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Skills/Master_Skill.Master_Skill
+[2020.04.18-18.11.58:450][803]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-18.11.58:668][803]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.04.18-18.11.58:997][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skills/Master_Skill" FILE="../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset" SILENT=true
+[2020.04.18-18.11.59:048][833]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Master_Skill915194594CCCB262955AC69842267E12.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset'
+[2020.04.18-18.11.59:062][833]AssetCheck: New page: Asset Save: Master_Skill
+[2020.04.18-18.11.59:062][833]LogContentValidation: Display: Validating Blueprint /Game/Skills/Master_Skill.Master_Skill
+[2020.04.18-18.13.35:452][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.04.18-18.13.35:452][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_0' took 0.031
+[2020.04.18-18.13.35:452][ 62]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Skills/Master_Skill] ([1] browsable assets)...
+[2020.04.18-18.13.35:453][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skills/Master_Skill]
+[2020.04.18-18.13.35:502][ 62]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Master_Skill_Auto4FA52245346EF9C4079291CA58AD34532.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Autosaves/Game/Skills/Master_Skill_Auto4.uasset'
+[2020.04.18-18.13.35:503][ 62]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Skills/FireBall] ([1] browsable assets)...
+[2020.04.18-18.13.35:503][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skills/FireBall]
+[2020.04.18-18.13.35:529][ 62]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/FireBall_Auto4A9AE82E541CC8DEFE8E34688301B41E4.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Autosaves/Game/Skills/FireBall_Auto4.uasset'
+[2020.04.18-18.13.35:530][ 62]LogFileHelpers: Auto-saving content packages took 0.079
+[2020.04.18-18.13.55:538][867]BlueprintLog: New page: Compile Master_Skill
+[2020.04.18-18.13.55:751][867]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.04.18-18.13.56:650][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skills/Master_Skill" FILE="../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset" SILENT=true
+[2020.04.18-18.13.56:701][965]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Master_SkillE9A6D01547B8C3F60BEE19960C625021.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/Skills/Master_Skill.uasset'
+[2020.04.18-18.13.56:715][965]AssetCheck: New page: Asset Save: Master_Skill
+[2020.04.18-18.13.56:715][965]LogContentValidation: Display: Validating Blueprint /Game/Skills/Master_Skill.Master_Skill
+[2020.04.18-18.22.40:831][  6]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/FireballCharacter/ABP_Firechar.ABP_Firechar
+[2020.04.18-18.22.40:839][  6]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.04.18-18.22.40:977][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.18-18.22.40:980][  6]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.04.18-18.22.41:207][  6]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.18-18.22.46:096][506]LogSlate: Window 'ABP_Firechar' being destroyed
+[2020.04.18-18.22.46:129][506]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.22.46:129][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.22.46:133][506]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.22.46:133][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.22.46:246][506]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.22.46:246][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.22.48:330][752]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/FireballCharacter/ABP_Firechar.ABP_Firechar
+[2020.04.18-18.22.48:337][752]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.18-18.22.48:654][752]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.18-18.22.50:047][878]LogSlate: Window 'ABP_Firechar' being destroyed
+[2020.04.18-18.23.25:043][738]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.23.25:043][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.23.25:049][738]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.23.25:049][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.23.25:161][738]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.23.25:161][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.23.30:885][416]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.23.30:885][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.23.50:393][732]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/FireballCharacter/ABP_Firechar.ABP_Firechar
+[2020.04.18-18.23.50:400][732]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.18-18.23.50:595][732]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.18-18.24.21:743][809]BlueprintLog: New page: Compile ABP_Firechar
+[2020.04.18-18.24.21:954][809]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.21:955][809]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:027][809]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.04.18-18.24.22:063][811]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:072][812]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:081][813]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:088][814]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:096][815]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:104][816]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:112][817]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:121][818]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:129][819]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:138][820]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:146][821]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:154][822]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:163][823]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:171][824]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:179][825]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_1
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.22:974][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FireballCharacter/ABP_Firechar" FILE="../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/FireballCharacter/ABP_Firechar.uasset" SILENT=true
+[2020.04.18-18.24.23:018][918]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/ABP_FirecharFA287B094C74007E89393D850055E00D.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/FireballCharacter/ABP_Firechar.uasset'
+[2020.04.18-18.24.23:030][918]AssetCheck: New page: Asset Save: ABP_Firechar
+[2020.04.18-18.24.23:030][918]LogContentValidation: Display: Validating AnimBlueprint /Game/FireballCharacter/ABP_Firechar.ABP_Firechar
+[2020.04.18-18.24.24:120][ 42]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.24.24:120][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.24.24:124][ 42]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.24.24:124][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.24.24:234][ 42]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.24.24:234][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.24.43:799][344]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/FireballCharacter/ABP_Firechar.ABP_Firechar
+[2020.04.18-18.24.43:806][344]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.18-18.24.43:806][344]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.43:999][344]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.18-18.24.44:147][344]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:201][345]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:209][346]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:218][347]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:226][348]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:233][349]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:242][350]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:250][351]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:259][352]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:267][353]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:275][354]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:284][355]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:292][356]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:300][357]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:309][358]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.44:317][359]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Firechar_C /Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Firechar_C_0
+	Function /Game/FireballCharacter/ABP_Firechar.ABP_Firechar_C:ExecuteUbergraph_ABP_Firechar:0040
+[2020.04.18-18.24.46:390][605]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.24.46:390][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.24.46:394][605]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.24.46:394][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.24.46:510][605]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.24.46:510][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.24.48:947][894]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/FireballCharacter/BS_Firechar.BS_Firechar
+[2020.04.18-18.24.48:957][894]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.18-18.24.49:002][894]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.18-18.24.49:429][894]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.18-18.24.49:571][895]LogUObjectHash: Compacting FUObjectHashTables data took   6.06ms
+[2020.04.18-18.24.49:572][895]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_0' took 0.085
+[2020.04.18-18.24.49:573][895]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Skills/FireBall] ([1] browsable assets)...
+[2020.04.18-18.24.49:573][895]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skills/FireBall]
+[2020.04.18-18.24.49:599][895]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/FireBall_Auto528CDAF714F078D9F6FFB0F8A1932B629.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/Autosaves/Game/Skills/FireBall_Auto5.uasset'
+[2020.04.18-18.24.49:600][895]LogFileHelpers: Auto-saving content packages took 0.027
+[2020.04.18-18.24.51:492][ 97]LogSlate: Window 'BS_Firechar' being destroyed
+[2020.04.18-18.25.39:412][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FireballCharacter/BS_Firechar" FILE="../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/FireballCharacter/BS_Firechar.uasset" SILENT=true
+[2020.04.18-18.25.39:443][649]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/BS_FirecharD82223EC44278BA373567D9B0971E576.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/FireballCharacter/BS_Firechar.uasset'
+[2020.04.18-18.25.39:454][649]AssetCheck: New page: Asset Save: BS_Firechar
+[2020.04.18-18.25.39:454][649]LogContentValidation: Display: Validating BlendSpace1D /Game/FireballCharacter/BS_Firechar.BS_Firechar
+[2020.04.18-18.25.51:355][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FireballCharacter/BS_Firechar" FILE="../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/FireballCharacter/BS_Firechar.uasset" SILENT=true
+[2020.04.18-18.25.51:374][885]LogSavePackage: Moving '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Saved/BS_FirecharEECE403F454B6C539D16289ACD506FCB.tmp' to '../../../../../../Users/Henrique/Documents/GitHub/MageArena/MyProject/Content/FireballCharacter/BS_Firechar.uasset'
+[2020.04.18-18.25.51:384][885]AssetCheck: New page: Asset Save: BS_Firechar
+[2020.04.18-18.25.51:384][885]LogContentValidation: Display: Validating BlendSpace1D /Game/FireballCharacter/BS_Firechar.BS_Firechar
+[2020.04.18-18.25.53:753][165]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.25.53:753][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.25.53:870][165]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.25.53:870][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.25.55:567][365]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/FireballCharacter/BS_Firechar.BS_Firechar
+[2020.04.18-18.25.55:571][365]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.18-18.25.55:594][365]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.18-18.25.55:796][365]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.18-18.25.58:244][658]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.25.58:244][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.25.58:357][658]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.25.58:357][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.25.59:448][783]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/FireballCharacter/ABP_Firechar.ABP_Firechar
+[2020.04.18-18.25.59:455][783]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.18-18.25.59:699][783]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.18-18.26.49:095][ 94]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.26.49:095][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.26.49:099][ 94]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.26.49:099][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.26.49:211][ 94]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2020.04.18-18.26.49:211][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.18-18.26.50:427][216]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.04.18-18.26.52:439][216]LogSlate: Window 'Delete Assets' being destroyed
