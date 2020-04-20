@@ -2816,3 +2816,67 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.20-16.25.08:341][769]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2020.04.20-16.25.08:341][769]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
 [2020.04.20-16.25.08:341][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.20-16.28.20:187][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2020.04.20-16.28.29:643][806]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2020.04.20-16.28.37:830][294]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2020.04.20-16.28.50:216][ 32]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2020.04.20-16.28.57:609][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2020.04.20-16.29.50:073][577]Cmd: EDIT COPY
+[2020.04.20-16.29.50:807][621]Cmd: EDIT PASTE
+[2020.04.20-16.29.55:363][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2020.04.20-16.29.56:235][935]Cmd: DELETE
+[2020.04.20-16.29.56:235][935]Cmd: ACTOR DELETE
+[2020.04.20-16.29.56:237][935]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.20-16.29.56:277][935]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.04.20-16.29.56:287][935]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2020.04.20-16.30.01:630][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2020.04.20-16.30.12:300][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2020.04.20-16.30.40:244][557]Cmd: EDIT COPY
+[2020.04.20-16.30.40:411][567]Cmd: EDIT PASTE
+[2020.04.20-16.31.16:971][753]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.04.20-16.31.17:412][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2020.04.20-16.31.26:711][334]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.04.20-16.31.28:133][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2020.04.20-16.31.35:496][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2020.04.20-16.31.42:255][261]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.04.20-16.31.46:697][526]LogEditorViewport: Clicking on Actor (LMB): LevelCompleted_C (LevelCompleted)
+[2020.04.20-16.31.53:944][950]Cmd: TRANSACTION UNDO
+[2020.04.20-16.31.53:944][950]LogEditorTransaction: Undo Move Actors
+[2020.04.20-16.32.16:253][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2020.04.20-16.32.20:612][538]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.04.20-16.32.28:721][ 23]LogEditorViewport: Clicking on Actor (LMB): LevelCompleted_C (LevelCompleted)
+[2020.04.20-16.32.33:837][329]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall5)
+[2020.04.20-16.32.34:522][366]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.04.20-16.32.39:823][678]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.04.20-16.32.40:161][678]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/TopDownExampleMapB57D34C14F53B09A626DF4BA35B43995.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/TopDownExampleMap.umap'
+[2020.04.20-16.32.40:208][678]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2020.04.20-16.32.40:209][678]LogContentValidation: Display: Validating World /Game/TopDownExampleMap.TopDownExampleMap
+[2020.04.20-16.32.50:838][315]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavigationMeshBoundsVolume)
+[2020.04.20-16.33.23:467][266]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2020.04.20-16.33.23:771][266]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/TopDownExampleMapE26932AE44CF45AE808B9CB4B8045274.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/TopDownExampleMap.umap'
+[2020.04.20-16.33.23:817][266]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2020.04.20-16.33.23:817][266]LogContentValidation: Display: Validating World /Game/TopDownExampleMap.TopDownExampleMap
+[2020.04.20-16.33.40:113][549]LogEditorViewport: Clicking on Actor (LMB): Summoners_C (Summoners)
+[2020.04.20-16.33.47:065][955]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.04.20-16.33.48:700][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.04.20-16.33.49:001][ 48]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/TopDownExampleMapD51E0A34436E03EABA1222ACEF450095.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/TopDownExampleMap.umap'
+[2020.04.20-16.33.49:047][ 48]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2020.04.20-16.33.49:048][ 48]LogContentValidation: Display: Validating World /Game/TopDownExampleMap.TopDownExampleMap
+[2020.04.20-16.34.00:887][754]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
+[2020.04.20-16.34.01:191][754]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/TopDownExampleMap5436DD1E42A7E9EAC7AD59BE3BDCD462.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/TopDownExampleMap.umap'
+[2020.04.20-16.34.01:241][754]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2020.04.20-16.34.01:241][754]LogContentValidation: Display: Validating World /Game/TopDownExampleMap.TopDownExampleMap
+[2020.04.20-16.35.18:034][120]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.04.20-16.35.18:336][120]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/TopDownExampleMapA83D27314B6DF68EE338088CE7526B00.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/TopDownExampleMap.umap'
+[2020.04.20-16.35.18:381][120]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2020.04.20-16.35.18:381][120]LogContentValidation: Display: Validating World /Game/TopDownExampleMap.TopDownExampleMap
+[2020.04.20-16.36.21:467][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2020.04.20-16.36.22:490][985]Cmd: DELETE
+[2020.04.20-16.36.22:490][985]Cmd: ACTOR DELETE
+[2020.04.20-16.36.22:493][985]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.20-16.36.22:525][985]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.04.20-16.36.22:530][985]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2020.04.20-16.36.24:002][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.04.20-16.36.24:302][ 69]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/TopDownExampleMap0B64240645BFAC1E073994A0FAC151A6.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/TopDownExampleMap.umap'
+[2020.04.20-16.36.24:351][ 69]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2020.04.20-16.36.24:351][ 69]LogContentValidation: Display: Validating World /Game/TopDownExampleMap.TopDownExampleMap
