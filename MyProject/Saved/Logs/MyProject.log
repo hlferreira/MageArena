@@ -1097,3 +1097,37 @@ Script call stack:
 [2020.05.20-19.10.14:990][484]AssetCheck: New page: Asset Save: TopDownExampleMap
 [2020.05.20-19.10.14:990][484]LogContentValidation: Display: Validating World /Game/TopDownExampleMap.TopDownExampleMap
 [2020.05.20-19.11.15:973][143]LogEditorViewport: Clicking on Actor (LMB): Summoners_C (Summoners3)
+[2020.05.20-19.14.44:130][678]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/actors/Summoners.Summoners
+[2020.05.20-19.14.44:289][678]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.05.20-19.14.45:087][678]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.20-19.14.45:225][679]LogSlate: Took 0.005785 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.20-19.15.57:396][941]LogStaticMesh: Building static mesh ElvenRuins_Terrain...
+[2020.05.20-19.15.57:423][941]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Terrain/ElvenRuins_Terrain.ElvenRuins_Terrain
+[2020.05.20-19.16.37:017][267]LogTexture: Display: Building textures: T_Env_Breakables_BreakablesSnow_M (AutoDXT, 1024X1024)
+[2020.05.20-19.16.37:017][267]LogTexture: Display: Building textures: T_Env_Breakables_Breakables_R (AutoDXT, 1024X1024)
+[2020.05.20-19.16.37:017][267]LogTexture: Display: Building textures: T_Env_Breakables_Breakables_D (AutoDXT, 1024X1024)
+[2020.05.20-19.16.37:017][267]LogTexture: Display: Building textures: T_Env_Breakables_Breakables_N (AutoDXT, 1024X1024)
+[2020.05.20-19.16.37:017][267]LogMaterial: Display: Missing cached shader map for material M_Breakables_Barrels, compiling. 
+[2020.05.20-19.16.37:035][267]LogStaticMesh: Building static mesh SM_Env_Breakables_Box1...
+[2020.05.20-19.16.37:050][267]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2020.05.20-19.16.37:050][267]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 20
+[2020.05.20-19.16.37:050][267]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2020.05.20-19.16.37:050][267]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2020.05.20-19.16.37:050][267]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.05.20-19.16.37:050][267]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.05.20-19.16.37:060][267]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeGrassLands/Environments/Breakables/StaticMesh/Box/SM_Env_Breakables_Box1.SM_Env_Breakables_Box1
+[2020.05.20-19.17.16:716][600]BlueprintLog: New page: Compile Summoners
+[2020.05.20-19.17.17:060][600]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2020.05.20-19.17.19:429][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/actors/Summoners" FILE="../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/actors/Summoners.uasset" SILENT=true
+[2020.05.20-19.17.19:479][736]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/Summoners826318A74D108F46F926DF8B4EA90A53.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/actors/Summoners.uasset'
+[2020.05.20-19.17.19:491][736]AssetCheck: New page: Asset Save: Summoners
+[2020.05.20-19.17.19:491][736]LogContentValidation: Display: Validating Blueprint /Game/actors/Summoners.Summoners
+[2020.05.20-19.17.22:770][931]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-19.17.22:770][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-19.17.25:778][106]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.05.20-19.17.42:640][116]LogEditorViewport: Clicking on Actor (LMB): Summoners_C (Summoners2)
+[2020.05.20-19.17.43:556][170]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.05.20-19.17.54:038][792]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2020.05.20-19.17.54:417][792]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/TopDownExampleMapF392FEB94F19FD5DBBD5EEB83B3C74B2.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/TopDownExampleMap.umap'
+[2020.05.20-19.17.54:462][792]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2020.05.20-19.17.54:462][792]LogContentValidation: Display: Validating World /Game/TopDownExampleMap.TopDownExampleMap
