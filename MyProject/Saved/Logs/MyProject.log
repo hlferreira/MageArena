@@ -1962,3 +1962,805 @@ Script call stack:
 [2020.05.23-23.44.06:669][355]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/actors/LevelCompleted.LevelCompleted
 [2020.05.23-23.44.18:164][ 27]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
 [2020.05.23-23.44.18:164][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.44.50:900][458]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.05.23-23.44.52:831][458]LogSlate: Window 'Delete Assets' being destroyed
+[2020.05.23-23.45.28:214][458]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.45.28:215][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.45.28:258][458]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/UI/Widgets/LevelCompletedMenu.LevelCompletedMenu
+[2020.05.23-23.45.29:849][458]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.05.23-23.45.29:884][458]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.05.23-23.45.29:915][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.05.23-23.45.31:771][564]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.05.23-23.45.31:796][564]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.45.31:796][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.23-23.45.31:796][564]PIE: New page: PIE session: TopDownExampleMap (24/05/2020, 01:45:31)
+[2020.05.23-23.45.31:797][564]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.45.31:860][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063187s)
+[2020.05.23-23.45.31:861][564]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.05.23-23.45.31:861][564]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2020.05.23-23.45.31:861][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownExampleMap.TopDownExampleMap to /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.064663s)
+[2020.05.23-23.45.31:897][564]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.05.23-23.45.31:898][564]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.23-23.45.31:898][564]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.23-23.45.31:898][564]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.23-23.45.31:898][564]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.23-23.45.31:898][564]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.23-23.45.31:898][564]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.23-23.45.31:898][564]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.23-23.45.31:898][564]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.23-23.45.31:898][564]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.23-23.45.31:898][564]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: Name: Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: Is Default: Yes
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: Channel Order:
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: 1: FrontRight
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: 4: BackLeft
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: 5: BackRight
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: 6: SideLeft
+[2020.05.23-23.45.31:902][564]LogAudioMixer: Display: 7: SideRight
+[2020.05.23-23.45.31:929][564]LogAudioMixer: Display: Using Audio Device Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.45.31:930][564]LogInit: FAudioDevice initialized.
+[2020.05.23-23.45.31:968][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.45.31:968][564]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.05.23-23.45.31:977][564]LogWorld: Bringing World /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.05.24-00.45.31
+[2020.05.23-23.45.31:978][564]LogWorld: Bringing up level for play took: 0.009424
+[2020.05.23-23.45.31:978][564]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2020.05.23-23.45.31:988][564]PIE: Play in editor start time for /Game/UEDPIE_0_TopDownExampleMap 0,599
+[2020.05.23-23.45.31:988][564]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.45.33:134][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.45.37:560][894]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.45.37:560][894]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.45.37:560][894]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.45.37:561][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.45.37:561][894]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.45.37:579][894]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.23-23.45.37:583][894]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.45.37:583][894]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.45.37:584][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.45.37:590][894]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.23-23.45.37:591][894]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.45.37:597][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.45.37:637][894]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.45.37:655][894]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2020.05.23-23.45.37:675][895]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2020.05.23-23.45.38:343][934]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.05.23-23.45.38:367][934]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.45.38:367][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.23-23.45.38:367][934]PIE: New page: PIE session: TopDownExampleMap (24/05/2020, 01:45:38)
+[2020.05.23-23.45.38:367][934]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.45.38:428][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061614s)
+[2020.05.23-23.45.38:429][934]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.05.23-23.45.38:429][934]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2020.05.23-23.45.38:429][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownExampleMap.TopDownExampleMap to /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.062826s)
+[2020.05.23-23.45.38:461][934]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.05.23-23.45.38:461][934]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.23-23.45.38:461][934]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.23-23.45.38:461][934]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.23-23.45.38:461][934]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.23-23.45.38:461][934]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.23-23.45.38:461][934]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.23-23.45.38:461][934]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.23-23.45.38:461][934]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.23-23.45.38:462][934]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.23-23.45.38:462][934]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: Name: Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: Is Default: Yes
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: Channel Order:
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: 1: FrontRight
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: 4: BackLeft
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: 5: BackRight
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: 6: SideLeft
+[2020.05.23-23.45.38:465][934]LogAudioMixer: Display: 7: SideRight
+[2020.05.23-23.45.38:493][934]LogAudioMixer: Display: Using Audio Device Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.45.38:494][934]LogInit: FAudioDevice initialized.
+[2020.05.23-23.45.38:527][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.45.38:527][934]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.05.23-23.45.38:534][934]LogWorld: Bringing World /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.05.24-00.45.38
+[2020.05.23-23.45.38:534][934]LogWorld: Bringing up level for play took: 0.006849
+[2020.05.23-23.45.38:535][934]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2020.05.23-23.45.38:545][934]PIE: Play in editor start time for /Game/UEDPIE_0_TopDownExampleMap 1,157
+[2020.05.23-23.45.38:546][934]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.45.40:758][ 64]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.45.46:576][413]LogAnimMontage: Warning: JumpToSectionName q bEndOfSection: 0 failed for Montage Standing_1H_Magic_Attack_01_Montage_2
+[2020.05.23-23.45.47:060][442]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.45.47:060][442]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.45.47:326][458]LogAnimMontage: Warning: JumpToSectionName q bEndOfSection: 0 failed for Montage Standing_1H_Magic_Attack_01_Montage_2
+[2020.05.23-23.45.47:809][487]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.45.47:810][487]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.45.47:826][488]LogAnimMontage: Warning: JumpToSectionName q bEndOfSection: 0 failed for Montage Standing_1H_Magic_Attack_01_Montage_2
+[2020.05.23-23.45.48:310][517]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.45.48:310][517]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.45.48:393][522]LogAnimMontage: Warning: JumpToSectionName q bEndOfSection: 0 failed for Montage Standing_1H_Magic_Attack_01_Montage_2
+[2020.05.23-23.45.48:876][551]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.45.48:877][551]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.45.48:962][556]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.45.48:963][556]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.45.48:963][556]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.45.48:963][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.45.48:963][556]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.45.48:981][556]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.23-23.45.48:986][556]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.45.48:988][556]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.45.48:989][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.45.48:996][556]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.23-23.45.48:996][556]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.45.49:004][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.45.49:046][556]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.45.49:078][556]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2020.05.23-23.45.49:090][557]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2020.05.23-23.46.14:567][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Instructions_2" FILE="../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset" SILENT=true
+[2020.05.23-23.46.14:586][ 61]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/Instructions_26A3DC6C94DCCFB0D1D5884A5844AB313.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset'
+[2020.05.23-23.46.14:601][ 61]AssetCheck: New page: Asset Save: Instructions_2
+[2020.05.23-23.46.14:601][ 61]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/Instructions_2.Instructions_2
+[2020.05.23-23.46.17:358][219]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.05.23-23.46.17:388][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.46.17:388][219]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.05.23-23.46.17:391][219]LogPlayLevel: [PlayLevel] Compiling Instructions_2 before play...
+[2020.05.23-23.46.17:641][219]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.05.23-23.46.17:648][219]LogPlayLevel: PlayLevel: Blueprint regeneration took 258 ms (1 blueprints)
+[2020.05.23-23.46.17:648][219]PIE: New page: PIE session: TopDownExampleMap (24/05/2020, 01:46:17)
+[2020.05.23-23.46.17:648][219]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.46.17:710][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061914s)
+[2020.05.23-23.46.17:711][219]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.05.23-23.46.17:711][219]LogPlayLevel: PIE: World Init took: (0.001325s)
+[2020.05.23-23.46.17:711][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownExampleMap.TopDownExampleMap to /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.063529s)
+[2020.05.23-23.46.17:747][219]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.05.23-23.46.17:747][219]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.23-23.46.17:747][219]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.23-23.46.17:747][219]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.23-23.46.17:747][219]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.23-23.46.17:747][219]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.23-23.46.17:747][219]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.23-23.46.17:747][219]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.23-23.46.17:747][219]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.23-23.46.17:747][219]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.23-23.46.17:747][219]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: Name: Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: Is Default: Yes
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: Channel Order:
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: 1: FrontRight
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: 4: BackLeft
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: 5: BackRight
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: 6: SideLeft
+[2020.05.23-23.46.17:751][219]LogAudioMixer: Display: 7: SideRight
+[2020.05.23-23.46.17:777][219]LogAudioMixer: Display: Using Audio Device Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.46.17:778][219]LogInit: FAudioDevice initialized.
+[2020.05.23-23.46.17:800][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.46.17:800][219]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.05.23-23.46.17:808][219]LogWorld: Bringing World /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.05.24-00.46.17
+[2020.05.23-23.46.17:809][219]LogWorld: Bringing up level for play took: 0.008055
+[2020.05.23-23.46.17:809][219]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2020.05.23-23.46.17:820][219]PIE: Play in editor start time for /Game/UEDPIE_0_TopDownExampleMap 0,431
+[2020.05.23-23.46.17:820][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.46.18:937][283]LogNet: Browse: /Game/TopDownExampleMap
+[2020.05.23-23.46.18:937][283]LogLoad: LoadMap: /Game/TopDownExampleMap
+[2020.05.23-23.46.18:937][283]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.46.18:938][283]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.46.18:939][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.46.18:939][283]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.46.18:975][283]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.05.23-23.46.18:976][283]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.46.19:038][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061649s)
+[2020.05.23-23.46.19:039][283]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.05.23-23.46.19:039][283]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2020.05.23-23.46.19:040][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownExampleMap.TopDownExampleMap to /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.062940s)
+[2020.05.23-23.46.19:040][283]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.05.23-23.46.19:048][283]LogWorld: Bringing World /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.05.24-00.46.19
+[2020.05.23-23.46.19:048][283]LogWorld: Bringing up level for play took: 0.008533
+[2020.05.23-23.46.19:054][283]LogLoad: Took 0.118285 seconds to LoadMap(/Game/UEDPIE_0_TopDownExampleMap)
+[2020.05.23-23.46.20:153][348]LogNet: Browse: /Game/TopDownExampleMap
+[2020.05.23-23.46.20:153][348]LogLoad: LoadMap: /Game/TopDownExampleMap
+[2020.05.23-23.46.20:153][348]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.46.20:154][348]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.46.20:157][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.46.20:157][348]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.46.20:194][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.05.23-23.46.20:195][348]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.46.20:258][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062121s)
+[2020.05.23-23.46.20:259][348]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.05.23-23.46.20:259][348]LogPlayLevel: PIE: World Init took: (0.001038s)
+[2020.05.23-23.46.20:259][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownExampleMap.TopDownExampleMap to /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.063538s)
+[2020.05.23-23.46.20:259][348]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.05.23-23.46.20:268][348]LogWorld: Bringing World /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.05.24-00.46.20
+[2020.05.23-23.46.20:269][348]LogWorld: Bringing up level for play took: 0.008828
+[2020.05.23-23.46.20:275][348]LogLoad: Took 0.121244 seconds to LoadMap(/Game/UEDPIE_0_TopDownExampleMap)
+[2020.05.23-23.46.21:669][430]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.23-23.46.21:673][430]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.46.21:674][430]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.46.21:674][430]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.46.21:674][430]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.46.21:675][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.46.21:684][430]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.23-23.46.21:684][430]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.46.21:690][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.46.21:729][430]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.46.21:755][430]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2020.05.23-23.46.21:770][431]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2020.05.23-23.46.58:895][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Instructions_2" FILE="../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset" SILENT=true
+[2020.05.23-23.46.58:910][355]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/Instructions_2EA8055004610A62BC24E6E96FEB6F6B2.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset'
+[2020.05.23-23.46.58:926][355]AssetCheck: New page: Asset Save: Instructions_2
+[2020.05.23-23.46.58:926][355]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/Instructions_2.Instructions_2
+[2020.05.23-23.47.01:064][478]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.05.23-23.47.01:089][478]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.01:089][478]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.05.23-23.47.01:092][478]LogPlayLevel: [PlayLevel] Compiling Instructions_2 before play...
+[2020.05.23-23.47.01:344][478]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.05.23-23.47.01:345][478]LogPlayLevel: PlayLevel: Blueprint regeneration took 255 ms (1 blueprints)
+[2020.05.23-23.47.01:345][478]PIE: New page: PIE session: TopDownExampleMap (24/05/2020, 01:47:01)
+[2020.05.23-23.47.01:345][478]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.47.01:407][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062092s)
+[2020.05.23-23.47.01:408][478]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.05.23-23.47.01:408][478]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2020.05.23-23.47.01:408][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownExampleMap.TopDownExampleMap to /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.063251s)
+[2020.05.23-23.47.01:440][478]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.05.23-23.47.01:441][478]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.23-23.47.01:441][478]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.23-23.47.01:441][478]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.23-23.47.01:441][478]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.23-23.47.01:441][478]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.23-23.47.01:441][478]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.23-23.47.01:441][478]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.23-23.47.01:441][478]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.23-23.47.01:442][478]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.23-23.47.01:442][478]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: Name: Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: Is Default: Yes
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: Channel Order:
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: 1: FrontRight
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: 4: BackLeft
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: 5: BackRight
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: 6: SideLeft
+[2020.05.23-23.47.01:445][478]LogAudioMixer: Display: 7: SideRight
+[2020.05.23-23.47.01:471][478]LogAudioMixer: Display: Using Audio Device Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.47.01:472][478]LogInit: FAudioDevice initialized.
+[2020.05.23-23.47.01:508][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.47.01:508][478]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.05.23-23.47.01:516][478]LogWorld: Bringing World /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.05.24-00.47.01
+[2020.05.23-23.47.01:516][478]LogWorld: Bringing up level for play took: 0.007154
+[2020.05.23-23.47.01:516][478]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2020.05.23-23.47.01:528][478]PIE: Play in editor start time for /Game/UEDPIE_0_TopDownExampleMap 0,139
+[2020.05.23-23.47.01:528][478]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.03:193][574]LogAnimMontage: Warning: JumpToSectionName q bEndOfSection: 0 failed for Montage Standing_1H_Magic_Attack_01_Montage_2
+[2020.05.23-23.47.03:675][603]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.47.03:675][603]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.47.04:976][681]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.04:976][681]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.04:976][681]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.04:976][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.47.04:977][681]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.47.04:994][681]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.23-23.47.04:998][681]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.04:998][681]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.47.05:000][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.47.05:005][681]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.23-23.47.05:005][681]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.05:012][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.47.05:052][681]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.05:069][681]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.05.23-23.47.05:083][682]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2020.05.23-23.47.12:262][798]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.05.23-23.47.12:285][798]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.12:285][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.23-23.47.12:285][798]PIE: New page: PIE session: TopDownExampleMap (24/05/2020, 01:47:12)
+[2020.05.23-23.47.12:285][798]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.47.12:348][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062540s)
+[2020.05.23-23.47.12:349][798]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.05.23-23.47.12:349][798]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2020.05.23-23.47.12:349][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownExampleMap.TopDownExampleMap to /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.063614s)
+[2020.05.23-23.47.12:383][798]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.05.23-23.47.12:384][798]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.23-23.47.12:384][798]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.23-23.47.12:384][798]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.23-23.47.12:384][798]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.23-23.47.12:384][798]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.23-23.47.12:384][798]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.23-23.47.12:384][798]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.23-23.47.12:384][798]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.23-23.47.12:385][798]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.23-23.47.12:385][798]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: Name: Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: Is Default: Yes
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: Channel Order:
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: 1: FrontRight
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: 4: BackLeft
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: 5: BackRight
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: 6: SideLeft
+[2020.05.23-23.47.12:388][798]LogAudioMixer: Display: 7: SideRight
+[2020.05.23-23.47.12:416][798]LogAudioMixer: Display: Using Audio Device Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.47.12:417][798]LogInit: FAudioDevice initialized.
+[2020.05.23-23.47.12:448][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.47.12:448][798]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.05.23-23.47.12:456][798]LogWorld: Bringing World /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.05.24-00.47.12
+[2020.05.23-23.47.12:456][798]LogWorld: Bringing up level for play took: 0.007446
+[2020.05.23-23.47.12:457][798]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2020.05.23-23.47.12:467][798]PIE: Play in editor start time for /Game/UEDPIE_0_TopDownExampleMap 1,078
+[2020.05.23-23.47.12:467][798]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.17:132][ 73]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.17:132][ 73]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.17:132][ 73]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.17:132][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.47.17:133][ 73]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.47.17:150][ 73]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.23-23.47.17:155][ 73]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.17:155][ 73]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.47.17:156][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.47.17:165][ 73]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.23-23.47.17:166][ 73]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.17:172][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.47.17:214][ 73]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.17:247][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.05.23-23.47.17:259][ 74]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2020.05.23-23.47.20:326][257]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2020.05.23-23.47.21:208][308]Cmd: DELETE
+[2020.05.23-23.47.21:208][308]Cmd: ACTOR DELETE
+[2020.05.23-23.47.21:215][308]LogEditorActor: Deleted Actor: TextRenderActor
+[2020.05.23-23.47.21:255][308]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.05.23-23.47.21:256][308]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2020.05.23-23.47.22:268][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.05.23-23.47.22:674][365]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/TopDownExampleMap75A135E04797F71A1A4D069830B61BCE.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/TopDownExampleMap.umap'
+[2020.05.23-23.47.22:722][365]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2020.05.23-23.47.22:722][365]LogContentValidation: Display: Validating World /Game/TopDownExampleMap.TopDownExampleMap
+[2020.05.23-23.47.24:075][446]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.05.23-23.47.24:098][446]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.24:098][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.23-23.47.24:098][446]PIE: New page: PIE session: TopDownExampleMap (24/05/2020, 01:47:24)
+[2020.05.23-23.47.24:098][446]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.47.24:161][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062840s)
+[2020.05.23-23.47.24:162][446]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.05.23-23.47.24:163][446]LogPlayLevel: PIE: World Init took: (0.001489s)
+[2020.05.23-23.47.24:163][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownExampleMap.TopDownExampleMap to /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.064675s)
+[2020.05.23-23.47.24:203][446]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2020.05.23-23.47.24:205][446]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.23-23.47.24:205][446]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.23-23.47.24:205][446]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.23-23.47.24:205][446]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.23-23.47.24:205][446]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.23-23.47.24:205][446]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.23-23.47.24:205][446]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.23-23.47.24:205][446]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.23-23.47.24:205][446]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.23-23.47.24:205][446]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: Name: Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: Is Default: Yes
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: Channel Order:
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: 1: FrontRight
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: 4: BackLeft
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: 5: BackRight
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: 6: SideLeft
+[2020.05.23-23.47.24:209][446]LogAudioMixer: Display: 7: SideRight
+[2020.05.23-23.47.24:234][446]LogAudioMixer: Display: Using Audio Device Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.47.24:235][446]LogInit: FAudioDevice initialized.
+[2020.05.23-23.47.24:262][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.47.24:262][446]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.05.23-23.47.24:270][446]LogWorld: Bringing World /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.05.24-00.47.24
+[2020.05.23-23.47.24:270][446]LogWorld: Bringing up level for play took: 0.007433
+[2020.05.23-23.47.24:270][446]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2020.05.23-23.47.24:282][446]PIE: Play in editor start time for /Game/UEDPIE_0_TopDownExampleMap 0,893
+[2020.05.23-23.47.24:282][446]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.36:506][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Instructions_2" FILE="../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset" SILENT=true
+[2020.05.23-23.47.36:521][ 88]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/Instructions_2F32A9B5A4C9361D05087A5B2F2497F79.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset'
+[2020.05.23-23.47.36:528][ 88]AssetCheck: New page: Asset Save: Instructions_2
+[2020.05.23-23.47.36:528][ 88]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/Instructions_2.Instructions_2
+[2020.05.23-23.47.38:019][178]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.38:019][178]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.38:019][178]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.38:019][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.47.38:019][178]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.47.38:036][178]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.23-23.47.38:039][178]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.38:039][178]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.47.38:040][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.47.38:047][178]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.23-23.47.38:047][178]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.38:053][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.47.38:086][178]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.38:103][178]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.05.23-23.47.38:131][180]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2020.05.23-23.47.38:629][210]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.05.23-23.47.38:653][210]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.38:653][210]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.05.23-23.47.38:656][210]LogPlayLevel: [PlayLevel] Compiling Instructions_2 before play...
+[2020.05.23-23.47.38:907][210]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2020.05.23-23.47.38:907][210]LogPlayLevel: PlayLevel: Blueprint regeneration took 254 ms (1 blueprints)
+[2020.05.23-23.47.38:907][210]PIE: New page: PIE session: TopDownExampleMap (24/05/2020, 01:47:38)
+[2020.05.23-23.47.38:907][210]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.47.38:969][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061751s)
+[2020.05.23-23.47.38:970][210]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.05.23-23.47.38:970][210]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2020.05.23-23.47.38:970][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownExampleMap.TopDownExampleMap to /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.062906s)
+[2020.05.23-23.47.39:002][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.05.23-23.47.39:003][210]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.23-23.47.39:003][210]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.23-23.47.39:003][210]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.23-23.47.39:003][210]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.23-23.47.39:003][210]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.23-23.47.39:003][210]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.23-23.47.39:003][210]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.23-23.47.39:003][210]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.23-23.47.39:003][210]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.23-23.47.39:003][210]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.23-23.47.39:006][210]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.23-23.47.39:006][210]LogAudioMixer: Display: Name: Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.47.39:006][210]LogAudioMixer: Display: Is Default: Yes
+[2020.05.23-23.47.39:006][210]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.23-23.47.39:006][210]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.23-23.47.39:006][210]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.23-23.47.39:006][210]LogAudioMixer: Display: Channel Order:
+[2020.05.23-23.47.39:006][210]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.23-23.47.39:006][210]LogAudioMixer: Display: 1: FrontRight
+[2020.05.23-23.47.39:006][210]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.23-23.47.39:006][210]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.23-23.47.39:006][210]LogAudioMixer: Display: 4: BackLeft
+[2020.05.23-23.47.39:006][210]LogAudioMixer: Display: 5: BackRight
+[2020.05.23-23.47.39:007][210]LogAudioMixer: Display: 6: SideLeft
+[2020.05.23-23.47.39:007][210]LogAudioMixer: Display: 7: SideRight
+[2020.05.23-23.47.39:032][210]LogAudioMixer: Display: Using Audio Device Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.47.39:033][210]LogInit: FAudioDevice initialized.
+[2020.05.23-23.47.39:066][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.47.39:066][210]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.05.23-23.47.39:074][210]LogWorld: Bringing World /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.05.24-00.47.39
+[2020.05.23-23.47.39:074][210]LogWorld: Bringing up level for play took: 0.007745
+[2020.05.23-23.47.39:075][210]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2020.05.23-23.47.39:086][210]PIE: Play in editor start time for /Game/UEDPIE_0_TopDownExampleMap -0,303
+[2020.05.23-23.47.39:086][210]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.49:886][854]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.49:886][854]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.49:886][854]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.49:886][854]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.47.49:886][854]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.47.49:905][854]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.23-23.47.49:908][854]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.49:909][854]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.47.49:910][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.47.49:917][854]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.23-23.47.49:918][854]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.49:924][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.47.49:966][854]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.50:001][854]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.05.23-23.47.50:015][855]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2020.05.23-23.47.50:551][886]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.05.23-23.47.50:575][886]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.50:575][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.23-23.47.50:575][886]PIE: New page: PIE session: TopDownExampleMap (24/05/2020, 01:47:50)
+[2020.05.23-23.47.50:575][886]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.47.50:636][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061771s)
+[2020.05.23-23.47.50:637][886]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.05.23-23.47.50:638][886]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2020.05.23-23.47.50:638][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownExampleMap.TopDownExampleMap to /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.063055s)
+[2020.05.23-23.47.50:672][886]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.05.23-23.47.50:673][886]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.23-23.47.50:673][886]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.23-23.47.50:673][886]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.23-23.47.50:673][886]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.23-23.47.50:673][886]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.23-23.47.50:673][886]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.23-23.47.50:673][886]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.23-23.47.50:673][886]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.23-23.47.50:674][886]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.23-23.47.50:674][886]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: Name: Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: Is Default: Yes
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: Channel Order:
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: 1: FrontRight
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: 4: BackLeft
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: 5: BackRight
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: 6: SideLeft
+[2020.05.23-23.47.50:677][886]LogAudioMixer: Display: 7: SideRight
+[2020.05.23-23.47.50:703][886]LogAudioMixer: Display: Using Audio Device Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.47.50:704][886]LogInit: FAudioDevice initialized.
+[2020.05.23-23.47.50:729][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.47.50:729][886]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.05.23-23.47.50:736][886]LogWorld: Bringing World /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.05.24-00.47.50
+[2020.05.23-23.47.50:737][886]LogWorld: Bringing up level for play took: 0.006927
+[2020.05.23-23.47.50:737][886]LogOnline: OSS: Creating online subsystem instance for: :Context_50
+[2020.05.23-23.47.50:748][886]PIE: Play in editor start time for /Game/UEDPIE_0_TopDownExampleMap -0,641
+[2020.05.23-23.47.50:748][886]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.51:470][926]LogAnimMontage: Warning: JumpToSectionName q bEndOfSection: 0 failed for Montage Standing_1H_Magic_Attack_01_Montage_2
+[2020.05.23-23.47.51:954][955]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.47.51:955][955]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.47.53:521][ 49]LogAnimMontage: Warning: JumpToSectionName q bEndOfSection: 0 failed for Montage Standing_1H_Magic_Attack_01_Montage_2
+[2020.05.23-23.47.54:004][ 78]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.47.54:005][ 78]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.47.59:996][437]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.59:996][437]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.47.59:996][437]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.47.59:996][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.47.59:996][437]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.48.00:016][437]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.23-23.48.00:021][437]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.48.00:022][437]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.48.00:025][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.48.00:031][437]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.23-23.48.00:031][437]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.48.00:039][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.48.00:082][437]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.48.00:097][437]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2020.05.23-23.48.00:109][438]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2020.05.23-23.48.07:867][891]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap
+[2020.05.23-23.48.26:050][953]BlueprintLog: New page: Compile TopDownExampleMap
+[2020.05.23-23.48.26:325][953]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.05.23-23.48.26:486][954]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.05.23-23.48.26:920][954]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/TopDownExampleMap16C820E04FFE3F4BC8F03F96C61DD3F9.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/TopDownExampleMap.umap'
+[2020.05.23-23.48.26:956][954]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.510
+[2020.05.23-23.48.26:983][954]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2020.05.23-23.48.26:983][954]LogContentValidation: Display: Validating World /Game/TopDownExampleMap.TopDownExampleMap
+[2020.05.23-23.48.28:821][ 57]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.05.23-23.48.28:846][ 57]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.48.28:846][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.23-23.48.28:846][ 57]PIE: New page: PIE session: TopDownExampleMap (24/05/2020, 01:48:28)
+[2020.05.23-23.48.28:846][ 57]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.48.28:913][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066721s)
+[2020.05.23-23.48.28:914][ 57]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.05.23-23.48.28:914][ 57]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2020.05.23-23.48.28:914][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownExampleMap.TopDownExampleMap to /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.068049s)
+[2020.05.23-23.48.28:963][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2020.05.23-23.48.28:965][ 57]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.23-23.48.28:965][ 57]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.23-23.48.28:965][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.23-23.48.28:965][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.23-23.48.28:965][ 57]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.23-23.48.28:965][ 57]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.23-23.48.28:965][ 57]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.23-23.48.28:965][ 57]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.23-23.48.28:965][ 57]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.23-23.48.28:965][ 57]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: Name: Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: Is Default: Yes
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: Channel Order:
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: 1: FrontRight
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: 4: BackLeft
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: 5: BackRight
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: 6: SideLeft
+[2020.05.23-23.48.28:969][ 57]LogAudioMixer: Display: 7: SideRight
+[2020.05.23-23.48.28:997][ 57]LogAudioMixer: Display: Using Audio Device Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.48.28:998][ 57]LogInit: FAudioDevice initialized.
+[2020.05.23-23.48.29:027][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.48.29:027][ 57]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.05.23-23.48.29:033][ 57]LogWorld: Bringing World /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.05.24-00.48.29
+[2020.05.23-23.48.29:033][ 57]LogWorld: Bringing up level for play took: 0.006913
+[2020.05.23-23.48.29:033][ 57]LogOnline: OSS: Creating online subsystem instance for: :Context_52
+[2020.05.23-23.48.29:044][ 57]PIE: Play in editor start time for /Game/UEDPIE_0_TopDownExampleMap -0,344
+[2020.05.23-23.48.29:045][ 57]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.48.35:139][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.48.35:139][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.48.35:139][415]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.48.35:139][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.48.35:139][415]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.48.35:157][415]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.23-23.48.35:162][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.48.35:162][415]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.48.35:165][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.48.35:194][415]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.23-23.48.35:194][415]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.48.35:201][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.48.35:244][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.48.35:277][415]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.05.23-23.48.35:300][416]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2020.05.23-23.48.49:362][232]BlueprintLog: New page: Compile Instructions_2
+[2020.05.23-23.48.49:367][232]LogBlueprint: Error: [Compiler Instructions_2] This blueprint (self) is not a TopDownCharacter_C, therefore ' Target ' must have a connection.
+[2020.05.23-23.48.49:411][232]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.05.23-23.48.49:855][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Instructions_2" FILE="../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset" SILENT=true
+[2020.05.23-23.48.49:870][256]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/Instructions_2EBF67BA34F8B1CC45599BAB005C33F11.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset'
+[2020.05.23-23.48.49:886][256]AssetCheck: New page: Asset Save: Instructions_2
+[2020.05.23-23.48.49:886][256]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/Instructions_2.Instructions_2
+[2020.05.23-23.49.30:508][632]BlueprintLog: New page: Compile Instructions_2
+[2020.05.23-23.49.30:514][632]LogBlueprint: Warning: [Compiler Instructions_2] Cast To TopDownCharacter  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2020.05.23-23.49.30:514][632]LogBlueprint: Error: [Compiler Instructions_2] This blueprint (self) is not a TopDownCharacter_C, therefore ' Target ' must have a connection.
+[2020.05.23-23.49.30:559][632]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.05.23-23.49.30:976][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Instructions_2" FILE="../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset" SILENT=true
+[2020.05.23-23.49.30:992][654]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/Instructions_2B6A43AEF482AE92CA6520981FBF17900.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset'
+[2020.05.23-23.49.31:007][654]AssetCheck: New page: Asset Save: Instructions_2
+[2020.05.23-23.49.31:007][654]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/Instructions_2.Instructions_2
+[2020.05.23-23.50.02:021][504]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Widgets/GameOver.GameOver
+[2020.05.23-23.50.39:757][721]BlueprintLog: New page: Compile Instructions_2
+[2020.05.23-23.50.39:760][721]LogBlueprint: Warning: [Compiler Instructions_2] Cast To TopDownCharacter  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2020.05.23-23.50.39:760][721]LogBlueprint: Error: [Compiler Instructions_2] This blueprint (self) is not a TopDownCharacter_C, therefore ' Target ' must have a connection.
+[2020.05.23-23.50.39:805][721]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.05.23-23.51.16:386][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Instructions_2" FILE="../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset" SILENT=true
+[2020.05.23-23.51.16:406][884]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/Instructions_2EE7199E546FCB373238E79929B64C0F7.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset'
+[2020.05.23-23.51.16:421][884]AssetCheck: New page: Asset Save: Instructions_2
+[2020.05.23-23.51.16:421][884]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/Instructions_2.Instructions_2
+[2020.05.23-23.51.19:801][ 77]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.05.23-23.51.19:829][ 77]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.51.19:830][ 77]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.05.23-23.51.19:848][ 77]LogPlayLevel: [PlayLevel] Compiling Instructions_2 before play...
+[2020.05.23-23.51.20:105][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.05.23-23.51.20:105][ 77]LogPlayLevel: PlayLevel: Blueprint regeneration took 276 ms (1 blueprints)
+[2020.05.23-23.51.20:105][ 77]PIE: New page: PIE session: TopDownExampleMap (24/05/2020, 01:51:20)
+[2020.05.23-23.51.20:106][ 77]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.51.20:169][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063068s)
+[2020.05.23-23.51.20:170][ 77]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.05.23-23.51.20:170][ 77]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2020.05.23-23.51.20:170][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownExampleMap.TopDownExampleMap to /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.064186s)
+[2020.05.23-23.51.20:214][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.05.23-23.51.20:214][ 77]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.23-23.51.20:214][ 77]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.23-23.51.20:214][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.23-23.51.20:214][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.23-23.51.20:214][ 77]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.23-23.51.20:214][ 77]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.23-23.51.20:214][ 77]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.23-23.51.20:214][ 77]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.23-23.51.20:214][ 77]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.23-23.51.20:214][ 77]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.23-23.51.20:218][ 77]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.23-23.51.20:218][ 77]LogAudioMixer: Display: Name: Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.51.20:218][ 77]LogAudioMixer: Display: Is Default: Yes
+[2020.05.23-23.51.20:219][ 77]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.23-23.51.20:219][ 77]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.23-23.51.20:219][ 77]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.23-23.51.20:219][ 77]LogAudioMixer: Display: Channel Order:
+[2020.05.23-23.51.20:219][ 77]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.23-23.51.20:219][ 77]LogAudioMixer: Display: 1: FrontRight
+[2020.05.23-23.51.20:219][ 77]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.23-23.51.20:219][ 77]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.23-23.51.20:219][ 77]LogAudioMixer: Display: 4: BackLeft
+[2020.05.23-23.51.20:219][ 77]LogAudioMixer: Display: 5: BackRight
+[2020.05.23-23.51.20:219][ 77]LogAudioMixer: Display: 6: SideLeft
+[2020.05.23-23.51.20:219][ 77]LogAudioMixer: Display: 7: SideRight
+[2020.05.23-23.51.20:248][ 77]LogAudioMixer: Display: Using Audio Device Altifalantes (3- Realtek(R) Audio)
+[2020.05.23-23.51.20:249][ 77]LogInit: FAudioDevice initialized.
+[2020.05.23-23.51.20:284][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.51.20:284][ 77]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.05.23-23.51.20:292][ 77]LogWorld: Bringing World /Game/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.05.24-00.51.20
+[2020.05.23-23.51.20:292][ 77]LogWorld: Bringing up level for play took: 0.007651
+[2020.05.23-23.51.20:292][ 77]LogOnline: OSS: Creating online subsystem instance for: :Context_55
+[2020.05.23-23.51.20:303][ 77]PIE: Play in editor start time for /Game/UEDPIE_0_TopDownExampleMap 0,914
+[2020.05.23-23.51.20:304][ 77]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.51.24:848][345]LogAnimMontage: Warning: JumpToSectionName q bEndOfSection: 0 failed for Montage Standing_1H_Magic_Attack_01_Montage_2
+[2020.05.23-23.51.25:330][374]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.51.25:330][374]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Skills/Master_Skill.Master_Skill_C:CoolDownTimeLine__UpdateFunc
+	Function /Game/Skills/Master_Skill.Master_Skill_C:ExecuteUbergraph_Master_Skill
+
+[2020.05.23-23.51.25:766][400]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.51.25:766][400]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.51.25:766][400]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.51.25:767][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-23.51.25:767][400]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TopDownExampleMap
+[2020.05.23-23.51.25:785][400]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.23-23.51.25:788][400]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.51.25:788][400]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.51.25:790][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.51.25:798][400]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.23-23.51.25:798][400]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2020.05.23-23.51.25:805][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.51.25:849][400]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-23.51.25:872][400]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2020.05.23-23.51.25:891][401]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2020.05.23-23.51.28:087][531]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.51.28:087][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.51.28:090][531]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.51.28:090][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.51.29:723][622]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.51.29:723][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.51.35:591][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/Instructions_2" FILE="../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset" SILENT=true
+[2020.05.23-23.51.35:606][967]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/Instructions_2A6AD6F544E9C11AD46A1D6B1EB9182EA.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/UI/Widgets/Instructions_2.uasset'
+[2020.05.23-23.51.35:622][967]AssetCheck: New page: Asset Save: Instructions_2
+[2020.05.23-23.51.35:623][967]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/Instructions_2.Instructions_2
+[2020.05.23-23.51.37:743][ 94]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.51.37:743][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.51.37:767][ 94]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.51.37:767][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.51.39:805][214]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.51.39:805][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-23.51.39:816][214]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-23.51.39:816][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
