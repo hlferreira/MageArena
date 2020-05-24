@@ -5354,3 +5354,19 @@ Script call stack:
 [2020.05.24-17.58.06:065][841]LogAudioMixer: Display: No commands were queued while flushing the source manager.
 [2020.05.24-17.58.06:094][841]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
 [2020.05.24-17.58.06:110][842]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.05.24-17.58.45:713][696]BlueprintLog: New page: Compile TopDownCharacter
+[2020.05.24-17.58.46:074][696]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.05.24-17.58.46:860][717]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/TopDownCharacter639BDFEB4EB385ABE1FB50B1F8BFBE26.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2020.05.24-17.58.46:876][717]AssetCheck: New page: Asset Save: TopDownCharacter
+[2020.05.24-17.58.46:876][717]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.05.24-17.59.02:058][621]BlueprintLog: New page: Compile TopDownExampleMap
+[2020.05.24-17.59.02:336][621]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2020.05.24-17.59.02:822][641]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.05.24-17.59.03:263][641]LogSavePackage: Moving '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Saved/TopDownExampleMap3DD92DE648083492DAE06988EA86B6DC.tmp' to '../../../../../../Users/fabio/Documents/Técnico/MDJ/Git/MageArena/MyProject/Content/TopDownExampleMap.umap'
+[2020.05.24-17.59.03:303][641]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.520
+[2020.05.24-17.59.03:332][641]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2020.05.24-17.59.03:332][641]LogContentValidation: Display: Validating World /Game/TopDownExampleMap.TopDownExampleMap
+[2020.05.24-17.59.16:963][450]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.05.24-17.59.16:963][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.24-17.59.17:410][468]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.05.24-17.59.17:410][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
